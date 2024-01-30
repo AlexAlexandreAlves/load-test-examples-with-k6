@@ -17,6 +17,7 @@ A little examples from the different kind of load tests using k6.
 ## Run commands:
 
 Run tests
+<br>
 `k6 run {nome-do-teste}.js`
 
 Run and generate csv report:
