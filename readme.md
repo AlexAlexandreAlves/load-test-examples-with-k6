@@ -7,10 +7,10 @@ A little examples from the different kind of load tests using k6.
 - [load-test-examples-with-k6](#load-test-examples-with-k6)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
-  - [Follow the oficial instalation guide:](#follow-the-oficial-instalation-guide)
+  - [Follow the official instalation guide:](#follow-the-official-instalation-guide)
   - [Run commands:](#run-commands)
 
-## Follow the oficial instalation guide:
+## Follow the official instalation guide:
 
 `https://k6.io/docs/get-started/installation/`
 
