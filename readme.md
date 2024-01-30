@@ -1,17 +1,32 @@
-### Follow the oficial instalation guide:
+# load-test-examples-with-k6
+
+## Description
+A little examples from the different kind of load tests using k6.
+
+## Table of Contents
+- [load-test-examples-with-k6](#load-test-examples-with-k6)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Follow the oficial instalation guide:](#follow-the-oficial-instalation-guide)
+  - [Run commands:](#run-commands)
+
+## Follow the oficial instalation guide:
+
 `https://k6.io/docs/get-started/installation/`
 
-### Run with:
+## Run commands:
+
+Run tests
 `k6 run {nome-do-teste}.js`
 
-### Comando para rodar os testes e gerar relatório csv
+Run and generate csv report:
 `k6 run -o csv=resultado.csv {nome-do-teste}.js`
 
-### Executando e output dos testes via cloud
+Run and tests output through cloud
 `k6 cloud {nome-do-teste}.js`
 
-### Executando local e output dos testes via cloud
+Run local and tests output through cloud
 `k6 run --out cloud {nome-do-teste}.js`
 
-### Executando no browser em modo ui e não headless
+Run on browser in ui mode and not headless
 `set "K6_BROWSER_HEADLESS=false" && set "K6_BROWSER_ARGS='show-property-changed-rects' " && k6 run {nome-do-teste}.js`
