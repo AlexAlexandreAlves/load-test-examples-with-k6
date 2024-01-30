@@ -4,10 +4,11 @@ import http from 'k6/http';
 import { BASE_URL } from "../constants/constants.js";
 
 export const options = {
-  vus: 1,                              //Número de usuários virtuais (threads)
-  duration: '5m',                      //Tempo de duração da execução
+  stages: [
+    { duration: '8h', target: 3000 },     //Inicia a execução já com 3000 threads simultâneas
+  ],
   thresholds: {
-    'http_req_failed': ['rate < 0.01'] //Limites estabelecidos para avaliar a execução
+    'http_req_failed': ['rate < 0.01'],
   }
 }
 
